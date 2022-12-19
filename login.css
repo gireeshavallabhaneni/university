@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+    background-color: #6f42c1;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 380px;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-bottom: 140px;
+}
+
+.box2 {
+    width: 584px;
+    height: 75px;
+    background-color:white;
+}
+
+.box2 img {
+    width: 100px;
+    height: 100px;
+}
+
+.box3 {
+    display: flex;
+    width: 584px;
+    height: 228px;
+
+}
+
+.box4 {
+    display: flex;
+    align-items: center;
+    width: 291px;
+    height: 228px;
+
+}
+
+.box4 b {
+    color: blue;
+    /* font-weight: 500; */
+    margin-left: 52px;
+    margin-bottom: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 291px;
+    height: 228px;
+
+}
+
+.sb {
+    width: 262px;
+    height: 83px;
+    display: flex;
+    justify-content: center;
+}
+
+.sb img {
+    width: 57px;
+    height: 57px;
+    border-radius: 40px;
+}
+
+.us {
+    display: flex;
+    width: 275px;
+    height: 38px;
+
+}
+
+.smallprof img {
+    margin-left: 5px;
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    border-color: #fff;
+    border: 2px solid rgb(177, 174, 174);
+}
+
+.search input {
+    margin-left: 1px;
+    width: 222px;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    width: 275px;
+    height: 38px;
+    margin-top: 40px;
+}
+
+.btn button {
+    margin-left: 3px;
+    width: 275px;
+    height: 38px;
+    color: white;
+    background-color: #007bff;
+    border-radius: 4px;
+    border-color: #007bff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+hr {
+    color: rgb(182, 179, 179);
+}
+
+/* hover effects */
+
+.box4 b:hover {
+    text-decoration: underline;
+}
+
+.search input:hover {
+    box-shadow: 2px 2px 5px rgb(177, 174, 174);
+}
+
+.smallprof img:hover {
+    box-shadow: 2px 2px 5px rgb(177, 174, 174);
+}
+
+.btn button:hover {
+    box-shadow: 2px 2px 10px rgb(177, 174, 174);
+}
+
+.sb img:hover {
+    box-shadow: 2px 2px 5px rgb(177, 174, 174);
+}
+
+.container .imgu img:hover{
+    box-shadow: 2px 2px 9px blue;
+}
+
+.container .imgu img {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    background-color: #ffc107;
+    font-size: 17px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
